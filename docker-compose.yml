@@ -1,0 +1,8 @@
+lucee:
+  build: .
+  volumes:
+    - ./www:/var/www
+  ports: 
+    - "8888:8888"
+    - "80:80"
+  
