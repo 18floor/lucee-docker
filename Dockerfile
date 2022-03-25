@@ -6,7 +6,7 @@ FROM lucee/lucee:5.3-nginx
 # COPY config/lucee/ /opt/lucee/web/
 
 # install extensions by prewarming lucee
-ENV LUCEE_EXTENSIONS "66e312dd-d083-27c0-64189d16753fd6f0;name=PDF;version=1.0.0.68,99a4ef8d-f2fd-40c8-8fb8c2e67a4eeeb6;name=MSSQL;version=8.4.1.jre8"
+ENV LUCEE_EXTENSIONS "66e312dd-d083-27c0-64189d16753fd6f0;name=PDF;version=1.0.0.94,99a4ef8d-f2fd-40c8-8fb8c2e67a4eeeb6;name=MSSQL;version=8.4.1.jre8"
 RUN /usr/local/tomcat/bin/prewarm.sh
 
 
